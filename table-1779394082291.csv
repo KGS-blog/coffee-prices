@@ -1,0 +1,7 @@
+﻿File,Fungsi
+`.github/workflows/update-coffee-prices.yml`,Workflow auto-run setiap 6 jam
+`scripts/fetch-prices.js`,Script fetch Yahoo Finance + Kurs IDR
+`prices.json`,File data (template)
+`HTML_SNIPPET.txt`,Kode ganti bagian HTML kalkulator
+`JS_FUNCTION_UPDATE.txt`,Kode ganti fungsi `coffeeFetchPrices()`
+`README.md`,Panduan lengkap step-by-step
