@@ -1,0 +1,27 @@
+{
+  "lastUpdated": "2026-05-21T20:29:18.115Z",
+  "source": "Yahoo Finance + open.er-api.com",
+  "arabica": {
+    "symbol": "KC=F",
+    "price": 272.5,
+    "previousClose": 268.3,
+    "change": 4.2,
+    "changePercent": 1.57,
+    "currency": "USX",
+    "timestamp": "2026-05-21T20:29:18.115Z",
+    "unit": "cents/lb"
+  },
+  "robusta": {
+    "symbol": "RM=F",
+    "price": 3487,
+    "unit": "USD/ton",
+    "note": "fallback/default"
+  },
+  "kurs": {
+    "from": "USD",
+    "to": "IDR",
+    "rate": 17645,
+    "source": "open.er-api.com",
+    "timestamp": "2026-05-21T20:29:18.064Z"
+  }
+}
