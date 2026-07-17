@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-17T13:14:53.372Z",
+  "lastUpdated": "2026-07-17T18:58:33.654Z",
   "source": "Yahoo Finance + open.er-api.com",
   "arabica": {
     "symbol": "KC=F",
-    "price": 314.05,
+    "price": 321.1,
     "previousClose": 312.6,
-    "change": 1.45,
-    "changePercent": 0.46,
+    "change": 8.5,
+    "changePercent": 2.72,
     "currency": "USX",
-    "timestamp": "2026-07-17T13:14:53.325Z",
+    "timestamp": "2026-07-17T18:58:33.624Z",
     "unit": "cents/lb"
   },
   "robusta": {
@@ -22,6 +22,6 @@
     "to": "IDR",
     "rate": 17992,
     "source": "open.er-api.com",
-    "timestamp": "2026-07-17T13:14:53.372Z"
+    "timestamp": "2026-07-17T18:58:33.654Z"
   }
 }
