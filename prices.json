@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:08:36.924Z",
+  "lastUpdated": "2026-09-21T02:49:43.517Z",
   "source": "Yahoo Finance + open.er-api.com",
   "arabica": {
     "symbol": "KC=F",
@@ -8,7 +8,7 @@
     "change": -3.3,
     "changePercent": -1.18,
     "currency": "USX",
-    "timestamp": "2026-09-20T20:08:36.924Z",
+    "timestamp": "2026-09-21T02:49:43.470Z",
     "unit": "cents/lb"
   },
   "robusta": {
@@ -20,8 +20,8 @@
   "kurs": {
     "from": "USD",
     "to": "IDR",
-    "rate": 17768,
+    "rate": 17790,
     "source": "open.er-api.com",
-    "timestamp": "2026-09-20T20:08:36.850Z"
+    "timestamp": "2026-09-21T02:49:43.517Z"
   }
 }
