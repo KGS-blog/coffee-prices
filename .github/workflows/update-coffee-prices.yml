@@ -1,6 +1,11 @@
 name: Update Coffee Prices
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'mevo_prices.json'
+      - '.github/workflows/update-coffee-prices.yml'
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
