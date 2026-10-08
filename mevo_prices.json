@@ -1,19 +1,49 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T20:56:07.971830+00:00",
+  "generated_at": "2026-10-08T13:28:22.987631+00:00",
   "form_note": "Bentuk produk disalin dari label form yang tersimpan pada data MEVO, misalnya Biji kopi mentah, Biji kopi sangrai, atau Kopi bubuk. Nilai Tidak disebut berarti arsip belum memiliki label bentuk.",
   "currency_note": "Harga dalam IDR tetap IDR. Mata uang lain ditampilkan terpisah tanpa konversi.",
   "period_note": "Kuartal berasal dari tanggal terbit sumber bila tersedia; selain itu dari tanggal listing diamati MEVO. Ini bukan tanggal transaksi.",
   "normalization_note": "Harga kemasan dinormalisasi ke 1 kg. Nilai IDR bulat 100–999 dibaca sebagai ribuan (contoh 150 menjadi Rp150.000) sesuai konvensi sumber MEVO.",
   "totals": {
-    "listings": 2623,
-    "groups": 43,
+    "listings": 2628,
+    "groups": 46,
     "types": {
-      "Arabika": 2010,
-      "Robusta": 613
+      "Arabika": 2012,
+      "Robusta": 616
     }
   },
   "summary": [
+    {
+      "type": "Arabika",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q1 2026",
+      "currency": "IDR",
+      "listing_count": 1,
+      "source_count": 1,
+      "median_price_per_kg": 120000.0,
+      "minimum_price_per_kg": 120000.0,
+      "maximum_price_per_kg": 120000.0,
+      "source_urls": [
+        "https://rri.co.id/jember/bisnis/2110344/harga-kopi-bondowoso-melonjak-pengusaha-tahan-harga-jual"
+      ]
+    },
+    {
+      "type": "Robusta",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q2 2025",
+      "currency": "IDR",
+      "listing_count": 2,
+      "source_count": 1,
+      "median_price_per_kg": 79000.0,
+      "minimum_price_per_kg": 73000.0,
+      "maximum_price_per_kg": 85000.0,
+      "source_urls": [
+        "https://gemasuryafm.com/2025/06/17/panen-harga-kopi-robusta-mulai-berpihak-pada-petani-produksi-belum-bisa-penuhi-kebutuhan-pasar/"
+      ]
+    },
     {
       "type": "Arabika",
       "form": "Biji kopi mentah",
@@ -127,13 +157,14 @@
       "process": "Tidak disebut",
       "period": "Q2 2026",
       "currency": "IDR",
-      "listing_count": 1,
-      "source_count": 1,
-      "median_price_per_kg": 55000.0,
+      "listing_count": 2,
+      "source_count": 2,
+      "median_price_per_kg": 97500.0,
       "minimum_price_per_kg": 55000.0,
-      "maximum_price_per_kg": 55000.0,
+      "maximum_price_per_kg": 140000.0,
       "source_urls": [
-        "https://arutalacoffee.com/blog/harga-kopi-hari-ini-dinamika-pasar-lokal-kualitas-arutala-coffee-dan-keuntungan"
+        "https://arutalacoffee.com/blog/harga-kopi-hari-ini-dinamika-pasar-lokal-kualitas-arutala-coffee-dan-keuntungan",
+        "https://www.detik.com/jabar/berita/d-8533647/50-bibit-dan-kisah-senyap-kopi-cibulao-menjaga-hulu-ciliwung"
       ]
     },
     {
@@ -333,6 +364,21 @@
       "maximum_price_per_kg": 185000.0,
       "source_urls": [
         "https://kopitime.id/harga-kopi-menjelang-akhir-tahun-2026-dan-perkembangan-pasar-global-1"
+      ]
+    },
+    {
+      "type": "Arabika",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q4 2025",
+      "currency": "IDR",
+      "listing_count": 1,
+      "source_count": 1,
+      "median_price_per_kg": 125000.0,
+      "minimum_price_per_kg": 125000.0,
+      "maximum_price_per_kg": 125000.0,
+      "source_urls": [
+        "https://kabarsdgs.com/sustainability/2025/11/21271/harga-kopi-arabika-gayo-di-bener-meriah-naik-dipicu-cuaca-baik-dan-permintaan-tinggi/"
       ]
     },
     {
@@ -60823,6 +60869,33 @@
       "quality_status": null
     },
     {
+      "observation_id": "growth-bf7e98d72eb16c32d3b0198978c9b274c0909d9227cefbc782678ed2abade13e",
+      "type": "Robusta",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q2 2026",
+      "date": "2026-06-15",
+      "date_basis": "Tanggal terbit sumber",
+      "currency": "IDR",
+      "original_price": 140000.0,
+      "price_per_package": 140000.0,
+      "package_size": {
+        "amount": 1,
+        "unit": "kg"
+      },
+      "price_per_kg": 140000.0,
+      "scale_100_to_999_applied": false,
+      "product": "robusta, dan Rp 140 ribu/kg untuk kopi ",
+      "source": "50 Bibit dan Kisah Senyap Kopi Cibulao Menjaga Hulu Ciliwung",
+      "source_url": "https://www.detik.com/jabar/berita/d-8533647/50-bibit-dan-kisah-senyap-kopi-cibulao-menjaga-hulu-ciliwung",
+      "product_url": "https://www.detik.com/jabar/berita/d-8533647/50-bibit-dan-kisah-senyap-kopi-cibulao-menjaga-hulu-ciliwung",
+      "quality_status": null,
+      "source_evidence": "Sejak Mei 2026 harga green bean kopi spesialti Cibulao dibanderol Rp 90 ribu/kg untuk robusta, dan Rp 140 ribu/kg untuk kopi arabika.",
+      "evidence_id": "14dcb31cf1e35e5e0237",
+      "normalization_basis": "Ribuan rupiah",
+      "import_method": "local_growth_explicit_price"
+    },
+    {
       "observation_id": "66caf0f4e711a2a7eacc18bf0e273fb2a20cf2a86a9b1b14fea04347f383a05b",
       "type": "Arabika",
       "form": "Biji kopi mentah",
@@ -60915,6 +60988,60 @@
       "quality_status": null
     },
     {
+      "observation_id": "growth-a59689849d727fb60341fe4383d4d4ed56d91f301581ec300fcef7d791bb3f57",
+      "type": "Arabika",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q1 2026",
+      "date": "2026-01-16",
+      "date_basis": "Tanggal terbit sumber",
+      "currency": "IDR",
+      "original_price": 120000.0,
+      "price_per_package": 120000.0,
+      "package_size": {
+        "amount": 1,
+        "unit": "kg"
+      },
+      "price_per_kg": 120000.0,
+      "scale_100_to_999_applied": false,
+      "product": "arabika green bean masih berkisar Rp120 ribu per kilogram.",
+      "source": "Harga Kopi Bondowoso Melonjak, Pengusaha Tahan Harga Jual - RRI.co.id",
+      "source_url": "https://rri.co.id/jember/bisnis/2110344/harga-kopi-bondowoso-melonjak-pengusaha-tahan-harga-jual",
+      "product_url": "https://rri.co.id/jember/bisnis/2110344/harga-kopi-bondowoso-melonjak-pengusaha-tahan-harga-jual",
+      "quality_status": null,
+      "source_evidence": "Padahal sebelumnya, harga beli arabika green bean masih berkisar Rp120 ribu per kilogram.",
+      "evidence_id": "c76c8127c6b668358641",
+      "normalization_basis": "Ribuan rupiah",
+      "import_method": "local_growth_explicit_price"
+    },
+    {
+      "observation_id": "growth-efa512d43378f4c8652b74868c20a7980e63ef43f23395659d60141344ef6db9",
+      "type": "Arabika",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q4 2025",
+      "date": "2025-11-05",
+      "date_basis": "Tanggal terbit sumber",
+      "currency": "IDR",
+      "original_price": 125000.0,
+      "price_per_package": 125000.0,
+      "package_size": {
+        "amount": 1,
+        "unit": "kg"
+      },
+      "price_per_kg": 125000.0,
+      "scale_100_to_999_applied": false,
+      "product": "Arabika Gayo jenis green bean dengan kadar air 18 persen kini berada di kisaran Rp125 ribu per kilogram.",
+      "source": "Harga Kopi Arabika Gayo di Bener Meriah Naik Dipicu Cuaca Baik dan Permintaan Tinggi",
+      "source_url": "https://kabarsdgs.com/sustainability/2025/11/21271/harga-kopi-arabika-gayo-di-bener-meriah-naik-dipicu-cuaca-baik-dan-permintaan-tinggi/",
+      "product_url": "https://kabarsdgs.com/sustainability/2025/11/21271/harga-kopi-arabika-gayo-di-bener-meriah-naik-dipicu-cuaca-baik-dan-permintaan-tinggi/",
+      "quality_status": null,
+      "source_evidence": "Ia menambahkan, harga biji kopi Arabika Gayo jenis green bean dengan kadar air 18 persen kini berada di kisaran Rp125 ribu per kilogram.",
+      "evidence_id": "00b017b403e3098f1707",
+      "normalization_basis": "Ribuan rupiah",
+      "import_method": "local_growth_explicit_price"
+    },
+    {
       "observation_id": "b3d034f3ae7d84a91ac8984a3476177210029d7dc586910c0739548a8475e528",
       "type": "Robusta",
       "form": "Biji kopi mentah",
@@ -61005,6 +61132,60 @@
       "source_url": "https://www.indonesia-coffee.com/id/articles/rincian-biaya-pembelian-arabika-indonesia-vs-robusta-pTWosi",
       "product_url": "https://www.indonesia-coffee.com/id/articles/rincian-biaya-pembelian-arabika-indonesia-vs-robusta-pTWosi#mevo-import-fad8c740d4ab",
       "quality_status": null
+    },
+    {
+      "observation_id": "growth-5614fbd50830a274d1cf257eb65961cc6569559aa5434ee85c16bec209232fdf",
+      "type": "Robusta",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q2 2025",
+      "date": "2025-06-17",
+      "date_basis": "Tanggal terbit sumber",
+      "currency": "IDR",
+      "original_price": 73000.0,
+      "price_per_package": 73000.0,
+      "package_size": {
+        "amount": 1,
+        "unit": "kg"
+      },
+      "price_per_kg": 73000.0,
+      "scale_100_to_999_applied": false,
+      "product": "Robusta yang kini mencapai kisaran Rp73 ribu per kilogram, banyak petani yang sebelumnya enggan menanam kopi mulai kembali bergairah.",
+      "source": "Panen, Harga Kopi Robusta Mulai Berpihak Pada Petani, Produksi Belum Bisa Penuhi Kebutuhan Pasar - Gema Surya FM",
+      "source_url": "https://gemasuryafm.com/2025/06/17/panen-harga-kopi-robusta-mulai-berpihak-pada-petani-produksi-belum-bisa-penuhi-kebutuhan-pasar/",
+      "product_url": "https://gemasuryafm.com/2025/06/17/panen-harga-kopi-robusta-mulai-berpihak-pada-petani-produksi-belum-bisa-penuhi-kebutuhan-pasar/",
+      "quality_status": null,
+      "source_evidence": "Dengan harga green bean Robusta yang kini mencapai kisaran Rp73 ribu per kilogram, banyak petani yang sebelumnya enggan menanam kopi mulai kembali bergairah.",
+      "evidence_id": "0f9334563ef311a26677",
+      "normalization_basis": "Ribuan rupiah",
+      "import_method": "local_growth_explicit_price"
+    },
+    {
+      "observation_id": "growth-a42acb340ce53bc3c0990e80a63e208b74ab49474cb87dd1ce8762f4f5f04518",
+      "type": "Robusta",
+      "form": "Biji kopi mentah",
+      "process": "Tidak disebut",
+      "period": "Q2 2025",
+      "date": "2025-06-17",
+      "date_basis": "Tanggal terbit sumber",
+      "currency": "IDR",
+      "original_price": 85000.0,
+      "price_per_package": 85000.0,
+      "package_size": {
+        "amount": 1,
+        "unit": "kg"
+      },
+      "price_per_kg": 85000.0,
+      "scale_100_to_999_applied": false,
+      "product": "Robusta di daerah tetangga seperti Magetan bahkan sudah menembus Rp85 ribu per kilogram.",
+      "source": "Panen, Harga Kopi Robusta Mulai Berpihak Pada Petani, Produksi Belum Bisa Penuhi Kebutuhan Pasar - Gema Surya FM",
+      "source_url": "https://gemasuryafm.com/2025/06/17/panen-harga-kopi-robusta-mulai-berpihak-pada-petani-produksi-belum-bisa-penuhi-kebutuhan-pasar/",
+      "product_url": "https://gemasuryafm.com/2025/06/17/panen-harga-kopi-robusta-mulai-berpihak-pada-petani-produksi-belum-bisa-penuhi-kebutuhan-pasar/",
+      "quality_status": null,
+      "source_evidence": "Sebagai pembanding, Lukito menyebut harga green bean kopi Robusta di daerah tetangga seperti Magetan bahkan sudah menembus Rp85 ribu per kilogram.",
+      "evidence_id": "3e86e214a9f7bca71dd2",
+      "normalization_basis": "Ribuan rupiah",
+      "import_method": "local_growth_explicit_price"
     }
   ]
 }
